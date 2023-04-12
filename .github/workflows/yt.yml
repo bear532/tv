@@ -280,18 +280,3 @@ jobs:
       run: |
         git commit -m "links are updated"
         git push
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-live/live.yml at main · 94ione/live
