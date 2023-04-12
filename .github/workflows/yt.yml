@@ -51,7 +51,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=toyVKHAFtac)
         EOL
-        # 	宜蘭-福隆3
+        # 宜蘭-福隆3
     - name: Get 04.m3u8
       run: |
         touch ./04.m3u8
@@ -61,7 +61,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
         EOL
-        # 	宜蘭-外澳沙灘
+        # 宜蘭-外澳沙灘
     - name: Get 05.m3u8
       run: |
         touch ./05.m3u8
@@ -91,7 +91,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=cPh2vzrtG_w)
         EOL
-        #礁溪-寒沐酒店
+        # 礁溪-寒沐酒店
  - name: Get 08.m3u8
       run: |
         touch ./08.m3u8
@@ -101,7 +101,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=42SdLqhVdYo)
         EOL
-        #新北-龍洞1
+        # 新北-龍洞1
  - name: Get 09.m3u8
       run: |
         touch ./09.m3u8
@@ -111,7 +111,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=d6pb0Dt-SLs)
         EOL
-        #新北-龍洞2
+        # 新北-龍洞2
  - name: Get 10.m3u8
       run: |
         touch ./10.m3u8
@@ -121,7 +121,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=-ILuLg8EcFo)
         EOL
-        #新北-碧砂漁港1
+        # 新北-碧砂漁港1
  - name: Get 11.m3u8
       run: |
         touch ./11.m3u8
@@ -131,7 +131,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=v4TbKMYozbc)
         EOL
-        #新北-碧砂漁港2	
+        # 新北-碧砂漁港2	
 
 
     - name: git add
