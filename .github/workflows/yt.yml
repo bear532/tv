@@ -182,56 +182,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=LbS-xQ67fos)
         EOL
-        # 17台視新聞台
-    - name: Get 17.m3u8
-      run: |
-        touch ./17.m3u8
-        sudo cat >./17.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=xL0ch83RAK8)
-        EOL
-        # 18寰宇新聞台
-    - name: Get 18.m3u8
-      run: |
-        touch ./18.m3u8
-        sudo cat >./18.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=B7Zp3d6xXWw)
-        EOL
-        # 19大愛二台
-    - name: Get 19.m3u8
-      run: |
-        touch ./19.m3u8
-        sudo cat >./19.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
-        EOL
-        # 20華語流行暢銷
-    - name: Get 20.m3u8
-      run: |
-        touch ./20.m3u8
-        sudo cat >./20.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@2olive153/live)
-        EOL
-        # 21華語KKBOX新歌
-    - name: Get 21.m3u8
-      run: |
-        touch ./21.m3u8
-        sudo cat >./21.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@kkbox4422/live)
-        EOL
+
     - name: git add
       run: |
         git add -A
