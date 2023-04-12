@@ -1,0 +1,146 @@
+name: Get YouTube Live m3u8
+on:
+  schedule:
+    - cron: '0 0/3 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+
+    - name: Get 01.m3u8
+      run: |
+        touch ./01.m3u8
+        sudo cat >./01.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NeKjZx8aN-w)
+        EOL
+        # 宜蘭-福隆1	
+    - name: Get 02.m3u8
+      run: |
+        touch ./02.m3u8
+        sudo cat >./02.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=RjPaF43hst0)
+        EOL
+        # 宜蘭-福隆2
+     - name: Get 03.m3u8
+      run: |
+        touch ./03.m3u8
+        sudo cat >./03.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=toyVKHAFtac)
+        EOL
+        # 	宜蘭-福隆3
+    - name: Get 04.m3u8
+      run: |
+        touch ./04.m3u8
+        sudo cat >./04.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
+        EOL
+        # 	宜蘭-外澳沙灘
+    - name: Get 05.m3u8
+      run: |
+        touch ./05.m3u8
+        sudo cat >./05.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
+        EOL
+        # 蘇澳-安南1  
+  - name: Get 06.m3u8
+      run: |
+        touch ./06.m3u8
+        sudo cat >./06.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
+        EOL
+        # 蘇澳-安南2
+  - name: Get 07.m3u8
+      run: |
+        touch ./07.m3u8
+        sudo cat >./07.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=cPh2vzrtG_w)
+        EOL
+        #礁溪-寒沐酒店
+ - name: Get 08.m3u8
+      run: |
+        touch ./08.m3u8
+        sudo cat >./08.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=42SdLqhVdYo)
+        EOL
+        #新北-龍洞1
+ - name: Get 09.m3u8
+      run: |
+        touch ./09.m3u8
+        sudo cat >./09.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=d6pb0Dt-SLs)
+        EOL
+        #新北-龍洞2
+ - name: Get 10.m3u8
+      run: |
+        touch ./10.m3u8
+        sudo cat >./10.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=-ILuLg8EcFo)
+        EOL
+        #新北-碧砂漁港1
+ - name: Get 11.m3u8
+      run: |
+        touch ./11.m3u8
+        sudo cat >./11.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=v4TbKMYozbc)
+        EOL
+        #新北-碧砂漁港2	
+
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+
+    - name: commit & push
+      run: |
+        git commit -m "links are updated"
+        git push
