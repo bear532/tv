@@ -42,8 +42,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=NeKjZx8aN-w)
         EOL
- 
-        # 104世界電視台 XXX
+
     - name: Get 104.m3u8
       run: |
         touch ./104.m3u8
