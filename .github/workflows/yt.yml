@@ -22,7 +22,7 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
-
+        # 01宜蘭-福隆1	
     - name: Get 01.m3u8
       run: |
         touch ./01.m3u8
@@ -32,7 +32,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=NeKjZx8aN-w)
         EOL
-
+        # 02宜蘭-福隆2
     - name: Get 02.m3u8
       run: |
         touch ./02.m3u8
@@ -42,7 +42,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=RjPaF43hst0)
         EOL
-
+        # 03宜蘭-福隆3
     - name: Get 03.m3u8
       run: |
         touch ./03.m3u8
@@ -52,7 +52,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=toyVKHAFtac)
         EOL
-
+        # 04宜蘭-外澳沙灘
     - name: Get 04.m3u8
       run: |
         touch ./04.m3u8
@@ -62,7 +62,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
         EOL
-
+        # 05蘇澳-安南1
     - name: Get 05.m3u8
       run: |
         touch ./05.m3u8
@@ -72,7 +72,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
         EOL
-
+        # 06蘇澳-安南2
     - name: Get 06.m3u8
       run: |
         touch ./06.m3u8
@@ -82,7 +82,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
         EOL
-
+        # 07礁溪-寒沐酒店
     - name: Get 07.m3u8
       run: |
         touch ./07.m3u8
@@ -92,7 +92,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=cPh2vzrtG_w)
         EOL
-
+        # 08新北-龍洞1
     - name: Get 08.m3u8
       run: |
         touch ./08.m3u8
@@ -102,7 +102,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=42SdLqhVdYo)
         EOL
-
+        # 09新北-龍洞2
     - name: Get 09.m3u8
       run: |
         touch ./09.m3u8
@@ -112,7 +112,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=d6pb0Dt-SLs)
         EOL
-
+        # 10新北-碧砂漁港1
     - name: Get 10.m3u8
       run: |
         touch ./10.m3u8
@@ -122,7 +122,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=-ILuLg8EcFo)
         EOL
-
+        # 11新北-碧砂漁港2
     - name: Get 11.m3u8
       run: |
         touch ./11.m3u8
@@ -132,7 +132,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=v4TbKMYozbc)
         EOL
-
+        # 12中視新聞
     - name: Get 12.m3u8
       run: |
         touch ./12.m3u8
@@ -142,26 +142,6 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
         EOL
-    - name: Get 15.m3u8
-      run: |
-        touch ./15.m3u8
-        sudo cat >./15.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@plus8394/live)
-        EOL
-        # 16東森財經股市
-    - name: Get 16.m3u8
-      run: |
-        touch ./16.m3u8
-        sudo cat >./16.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=LbS-xQ67fos)
-        EOL
-
     - name: git add
       run: |
         git add -A
