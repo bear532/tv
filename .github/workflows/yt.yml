@@ -62,7 +62,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
         EOL
-        # 05蘇澳-安南1 
+        # 05蘇澳-安南1
     - name: Get 05.m3u8
       run: |
         touch ./05.m3u8
@@ -72,8 +72,8 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
         EOL
-        # 06蘇澳-安南2  
-  - name: Get 06.m3u8
+        # 06蘇澳-安南2
+    - name: Get 06.m3u8
       run: |
         touch ./06.m3u8
         sudo cat >./06.m3u8 <<EOL
@@ -82,56 +82,176 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
         EOL
-        # 07礁溪-寒沐酒店
-  - name: Get 07.m3u8
+        # 115新天地民俗台
+    - name: Get 115.m3u8
       run: |
-        touch ./07.m3u8
-        sudo cat >./07.m3u8 <<EOL
+        touch ./115.m3u8
+        sudo cat >./115.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=cPh2vzrtG_w)
+        $(yt-dlp --print urls https://www.youtube.com/@user-ju8hx7pn3d/live)
         EOL
-        # 08新北-龍洞1
- - name: Get 08.m3u8
+        # 116三聖電視台
+    - name: Get 116.m3u8
       run: |
-        touch ./08.m3u8
-        sudo cat >./08.m3u8 <<EOL
+        touch ./116.m3u8
+        sudo cat >./116.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=42SdLqhVdYo)
+        $(yt-dlp --print urls https://www.youtube.com/@tsimtv-02/live)
         EOL
-        # 09新北-龍洞2
- - name: Get 09.m3u8
+        # 118天美麗電視台
+    - name: Get 118.m3u8
       run: |
-        touch ./09.m3u8
-        sudo cat >./09.m3u8 <<EOL
+        touch ./118.m3u8
+        sudo cat >./118.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=d6pb0Dt-SLs)
+        $(yt-dlp --print urls https://www.youtube.com/@user-su2ml3jf7w/live)
         EOL
-        # 10新北-碧砂漁港1
- - name: Get 10.m3u8
+        # 119桐瑛電視台
+    - name: Get 119.m3u8
       run: |
-        touch ./10.m3u8
-        sudo cat >./10.m3u8 <<EOL
+        touch ./119.m3u8
+        sudo cat >./119.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=-ILuLg8EcFo)
+        $(yt-dlp --print urls https://www.youtube.com/@user-xh5zh4hi9n/live)
         EOL
-        # 11新北-碧砂漁港2
- - name: Get 11.m3u8
+        # 120雙子衛視 XXx
+    - name: Get 120.m3u8
       run: |
-        touch ./11.m3u8
-        sudo cat >./11.m3u8 <<EOL
+        touch ./120.m3u8
+        sudo cat >./120.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=v4TbKMYozbc)
-        EOL	
+        $(yt-dlp --print urls https://www.youtube.com/@user-bp6sm2nq9u/live)
+        EOL
+        # 121viva購物2台
+    - name: Get 121.m3u8
+      run: |
+        touch ./121.m3u8
+        sudo cat >./121.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LEOat38Iuao)
+        EOL
+        # 123國會頻道1
+    - name: Get 123.m3u8
+      run: |
+        touch ./123.m3u8
+        sudo cat >./123.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4HysYHJ6GkY)
+        EOL
+        # 124國會頻道2
+    - name: Get 124.m3u8
+      run: |
+        touch ./124.m3u8
+        sudo cat >./124.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=RAP4h3q6_Sg)
+        EOL
+        # 125幸福空間居家台
+    - name: Get 125.m3u8
+      run: |
+        touch ./125.m3u8
+        sudo cat >./125.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@plus8394/live)
+        EOL
+        # 129東森財經股市
+    - name: Get 129.m3u8
+      run: |
+        touch ./129.m3u8
+        sudo cat >./129.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LbS-xQ67fos)
+        EOL
+        # 154中視新聞台
+    - name: Get 154.m3u8
+      run: |
+        touch ./154.m3u8
+        sudo cat >./154.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=TCnaIE_SAtM)
+        EOL
+        # 155台視新聞台
+    - name: Get 155.m3u8
+      run: |
+        touch ./155.m3u8
+        sudo cat >./155.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xL0ch83RAK8)
+        EOL
+        # 159華視新聞資訊
+    - name: Get 159.m3u8
+      run: |
+        touch ./159.m3u8
+        sudo cat >./159.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=wM0g8EoUZ_E)
+        EOL
+        # 222寰宇新聞台
+    - name: Get 222.m3u8
+      run: |
+        touch ./222.m3u8
+        sudo cat >./222.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=B7Zp3d6xXWw)
+        EOL
+        # 297大愛二台
+    - name: Get 297.m3u8
+      run: |
+        touch ./297.m3u8
+        sudo cat >./297.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
+        EOL
+        # 950華語流行暢銷
+    - name: Get 950.m3u8
+      run: |
+        touch ./950.m3u8
+        sudo cat >./950.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@2olive153/live)
+        EOL
+        # 951華語KKBOX新歌
+    - name: Get 951.m3u8
+      run: |
+        touch ./951.m3u8
+        sudo cat >./951.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@kkbox4422/live)
+        EOL
     - name: git add
       run: |
         git add -A
