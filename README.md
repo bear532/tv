@@ -235,3 +235,15 @@
 118.綠島-帆船鼻,https://raw.githubusercontent.com/bear532/tv/main/118.m3u8
 
 119.綠島-柴口浮潛區,https://raw.githubusercontent.com/bear532/tv/main/119.m3u8
+
+131.东京新宿,https://raw.githubusercontent.com/bear532/tv/main/131.m3u8
+
+132.恵比寿駅前,https://raw.githubusercontent.com/bear532/tv/main/132.m3u8
+
+133.東京六本木,https://raw.githubusercontent.com/bear532/tv/main/133.m3u8
+
+134.静岡市富士山,https://raw.githubusercontent.com/bear532/tv/main/134.m3u8
+
+135.富士山,https://raw.githubusercontent.com/bear532/tv/main/135.m3u8
+
+136.函館山,https://raw.githubusercontent.com/bear532/tv/main/136.m3u8
