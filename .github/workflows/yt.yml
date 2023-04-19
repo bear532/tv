@@ -1212,67 +1212,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=zQQSfAkjCJc)
         EOL  
-        # 131东京新宿	
-    - name: Get 131.m3u8
-      run: |
-        touch ./131.m3u8
-        sudo cat >./131.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=DjdUEyjx8GM)
-        EOL
-        # 132 恵比寿駅前
-    - name: Get 132.m3u8
-      run: |
-        touch ./132.m3u8
-        sudo cat >./132.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=LR7i5_pkJBg)
-        EOL
-        # 133 東京六本木
-    - name: Get 133.m3u8
-      run: |
-        touch ./133.m3u8
-        sudo cat >./133.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Uf2iLWzBpUI)
-        EOL
-        # 134 静岡市富士山
-    - name: Get 134.m3u8
-      run: |
-        touch ./134.m3u8
-        sudo cat >./134.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=OrGQEkkEkx4)
-        EOL		
-        # 135 富士山
-    - name: Get 135.m3u8
-      run: |
-        touch ./135.m3u8
-        sudo cat >./135.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=h6Z9v-qqHl8)
-        EOL
-        # 136 函館山
-    - name: Get 136.m3u8
-      run: |
-        touch ./136.m3u8
-        sudo cat >./136.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=13660000
-        $(yt-dlp --print urls ttps://www.youtube.com/watch?v=Q1oSzjYcV9w)
-        EOL 
-		
+
     - name: git add
       run: |
         git add -A
