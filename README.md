@@ -236,16 +236,14 @@
 
 119.綠島-柴口浮潛區,https://raw.githubusercontent.com/bear532/tv/main/119.m3u8
 
-120.东京新宿,https://raw.githubusercontent.com/bear532/tv/main/131.m3u8
+120.东京新宿,https://raw.githubusercontent.com/bear532/tv/main/120.m3u8
 
-121.恵比寿駅前,https://raw.githubusercontent.com/bear532/tv/main/132.m3u8
+121.恵比寿駅前,https://raw.githubusercontent.com/bear532/tv/main/121.m3u8
 
-122.東京六本木,https://raw.githubusercontent.com/bear532/tv/main/133.m3u8
+122.東京六本木,https://raw.githubusercontent.com/bear532/tv/main/122.m3u8
 
-123.静岡市富士山,https://raw.githubusercontent.com/bear532/tv/main/134.m3u8
+123.静岡市富士山,https://raw.githubusercontent.com/bear532/tv/main/123.m3u8
 
-124.富士山,https://raw.githubusercontent.com/bear532/tv/main/135.m3u8
+124.富士山,https://raw.githubusercontent.com/bear532/tv/main/124.m3u8
 
-125.函館山,https://raw.githubusercontent.com/bear532/tv/main/136.m3u8
-
-136.函館山,https://raw.githubusercontent.com/bear532/tv/main/136.m3u8
+125.函館山,https://raw.githubusercontent.com/bear532/tv/main/125.m3u8
