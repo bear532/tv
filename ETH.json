@@ -1,7 +1,8 @@
-  {
-"spider": "https://github.com/bear532/tv/raw/main/custom_spider.jar;md5;a0d6409d59f67ef375b53de71a75bd68",
+{
+  "spider": "./custom_spider.jar;md5;a0d6409d59f67ef375b53de71a75bd68",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
-  "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=eth"]}]}],
+"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=eth"]}]}]
+  }
 "rules":[
 {"host":"*", "rule":["douyinvod.com", "/video/tos/cn/"]}, 
 {"host":"*", "rule":["default.365yg.com", "/video/tos/cn/"]},  
