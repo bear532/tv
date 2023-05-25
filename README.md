@@ -116,9 +116,9 @@
 
 59.嘉義-阿里山里佳資訊站,https://raw.githubusercontent.com/bear532/tv/main/59.m3u8
 
-60.嘉義-阿里山森林遊樂區,https://raw.githubusercontent.com/bear532/tv/main/60.m3u8
+60.嘉義-阿里山國家風景區管理處,https://raw.githubusercontent.com/bear532/tv/main/60.m3u8
 
-61.嘉義-阿里山森林遊樂區,https://raw.githubusercontent.com/bear532/tv/main/61.m3u8
+61.嘉義-阿里山牛埔仔大草原,https://raw.githubusercontent.com/bear532/tv/main/61.m3u8
 
 62.嘉義-奮起湖,https://raw.githubusercontent.com/bear532/tv/main/62.m3u8
 
