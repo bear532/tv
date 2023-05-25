@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=RjPaF43hst0)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NHZNDmpQNeM)
         EOL
         # 03宜蘭-福隆3
     - name: Get 03.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=VOV0iYMzsig)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=X12bJLxfzps)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
