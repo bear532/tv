@@ -490,7 +490,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=-X5EbRuv714)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=zMmst3Sxrks)
         EOL
         # 48台鐵北新竹站-常換
     - name: Get 48.m3u8
@@ -720,7 +720,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qstxqzCMWtM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=29EuFZe3ptg)
         EOL
         # 71台南-黃金海岸
     - name: Get 71.m3u8
