@@ -52,7 +52,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=toyVKHAFtac)
         EOL
-        # 04宜蘭-外澳沙灘
+        # 04宜蘭蘇澳2
     - name: Get 04.m3u8
       run: |
         touch ./04.m3u8
@@ -60,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
         EOL
         # 05蘇澳-安南1
     - name: Get 05.m3u8
@@ -230,7 +230,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=-0rNuczMc1U)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=qe1U0yFN5QE)
         EOL
         # 22新北-烏來吊橋
     - name: Get 22.m3u8
@@ -500,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=0Zez6hYlq_8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fh0Bl2XVSLM)
         EOL
         # 49苗栗-雪霸汶水遊客中心
     - name: Get 49.m3u8
@@ -1180,7 +1180,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=46Wd3A-0L2k)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oYuZTdLa8YE)
         EOL  
         # 117綠島-南寮漁港
     - name: Get 117.m3u8
