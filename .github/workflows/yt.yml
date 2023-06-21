@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=OlC9gNea3Q4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=7xqFVb3ExJE)
         EOL 
         # 14基隆-和平島2
     - name: Get 14.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=X12bJLxfzps)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rUt3uP-8yvg)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
@@ -170,7 +170,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=9ViQoDswn14)
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=8Tqag28ptIo)
         EOL
         # 16新北-野柳2
     - name: Get 16.m3u8
@@ -180,7 +180,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=bliMqxr92OQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Hym-yaCMnjA)
         EOL
         # 17新北-沙崙1
     - name: Get 17.m3u8
@@ -190,7 +190,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=atE41ZAIc3c)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=kYm2sVbP9DY)
         EOL
         # 18新北-沙崙2
     - name: Get 18.m3u8
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=UuJ08lrqnhI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xblBvKIuCkg)
         EOL
         # 19新北-淡水老街渡船頭
     - name: Get 19.m3u8
