@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=eVJO8jT2ouc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=H4F5HQJVjcQ)
         EOL
         # 02宜蘭-福隆2
     - name: Get 02.m3u8
@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=t3YnIZE-d-g)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rvu7T5QgWr0)
         EOL
         # 03宜蘭-福隆3
     - name: Get 03.m3u8
@@ -50,7 +50,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=xxo8EMmHcIo)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=CBU8tNnMvbQ)
         EOL
         # 04宜蘭-外澳沙灘
     - name: Get 04.m3u8
@@ -60,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=aY8ldQTAqFs)
         EOL
         # 05蘇澳-南安1
     - name: Get 05.m3u8
@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=aY8ldQTAqFs)
         EOL
         # 06蘇澳-南安2
     - name: Get 06.m3u8
@@ -80,7 +80,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=lwCvbaMhRX8)
         EOL
         # 07礁溪-寒沐酒店
     - name: Get 07.m3u8
