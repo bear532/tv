@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1698376222/ei/vtU6Zd7-E4Sx2_gP4PSuuAk/ip/52.171.137.247/id/g1Elfy8Zq0A.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr5---sn-q4flrnss.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f22mYzYi0kHiZZCwaIDwfZ6M950/vprv/1/playlist_type/DVR/initcwndbps/1267500/mh/5M/mm/44/mn/sn-q4flrnss/ms/lva/mv/m/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1698354288/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AGM4YrMwRgIhAPBWtrT8IBWZHglzom88v7MSDWm-KgQrQqGa_tAym19pAiEAvvyOVOYAGHOtTm9f7XA3YR4f51aklW5xvnB4l9ncW74%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AK1ks_kwRQIgabB22BOEEGM7oYIEa1tiDKTS5Vh_KGeUky5w6iXai_ICIQC6KDtFuL5o8eFusn2LSsIvo96E0C5eEjLrRl8yaw94Cw%3D%3D/playlist/index.m3u8
 EOL  
 # 113馬祖-連江議會眺望北竿
