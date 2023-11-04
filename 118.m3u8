@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1699132187/ei/u15GZZOdHKaLsfIPy-WkgAE/ip/13.83.4.255/id/pLdBc8PvZko.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-o097znse.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9fwhhjoGJrzgDuEKOGErfc1h74QFxbjrDp-Q2OKr5U9rHdNLd/vprv/1/playlist_type/DVR/mh/O-/mm/44/mn/sn-o097znse/ms/lva/mv/u/mvi/5/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1699110242/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgR3sdtz4KqP8G9KMJia2nmcFnsSAiP55l4sRrHxC1Ac8CICE9falDgZ30xolB790PQWR4LdzFT7xdIQAp5nfTiQJ8/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRAIgJba1psebJDcXB2rh-CDwiPrEt_h5jRB4TXbMxq-tjjACICWY77HNc0mDxNXCtEMtVzbAfD4vr6vL6-oCON80XoHZ/playlist/index.m3u8
 EOL  
 # 119綠島-柴口浮潛區
