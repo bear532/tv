@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1703831456/ei/QBOOZb7ZJ7eP_9EP-Ou7mAw/ip/74.249.14.182/id/-srNHTE-Nf0.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-p5qlsny6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f4QpOfUBQa8L0X7iX6LKuQ-tfZA/vprv/1/playlist_type/DVR/mh/On/mm/44/mn/sn-p5qlsny6/ms/lva/mv/u/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1703809132/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgfIZIfY9IXlYmDapBUmgkIkslyIxv6oTcllMMOQMUmyYCIBL-rXUx1nfIwFiBsF2Id5H3nTG-e8jnxQvVLOTJSO4y/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRQIgTeF7qdX4PAamTSZm6Fp80wlNLHLfpTLGQuGyrGCITcwCIQCj2mdwIgwnn1J8VOfRoriu9FbcdJv5RTXBFYQVsGpn5g%3D%3D/playlist/index.m3u8
 EOL  
 # 111馬祖-南竿福澳港
