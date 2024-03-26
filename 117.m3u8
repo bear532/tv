@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711509012/ei/tDkDZtL1DLiN2_gPueyP2Ag/ip/172.183.59.181/id/wTHhv7M0vCI.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-vgqskn6s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9fxwCnrW2e9UO2or_55Xd0vf88gHYu5fdKNxyZyDk7Os/vprv/1/playlist_type/DVR/mh/7L/mm/44/mn/sn-vgqskn6s/ms/lva/mv/u/mvi/3/pl/15/dover/11/pacing/0/keepalive/yes/fexp/51141541/mt/1711486429/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgRWn--eQmY7596mRFI44f9dnnX9gvO2tGf1RGXrIHf58CIHFKbRhTpWytU_KBMikR32M6XlWInJO9nAfPziCS2x5I/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRQIhANZO418JKwo-S6qa2muwbi3EEJ05SgIBMeVdOKz8dHfQAiBHw-QTfq3pSD1UZcPN7xCyeYpnmsg8jY_8XBt6Q1hbfA%3D%3D/playlist/index.m3u8
 EOL  
 # 118綠島-帆船鼻
