@@ -60,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=uY5La1BfO6s)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=La8l3I3L5uk)
         EOL
         # 05蘇澳-南安1
     - name: Get 05.m3u8
@@ -230,7 +230,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qe1U0yFN5QE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=jAdVjwU-Lu4)
         EOL
         # 22新北-烏來吊橋
     - name: Get 22.m3u8
@@ -240,7 +240,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qJUVVjCjFaw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tx07sS9lCvY)
         EOL
        # 23新北-中和烘爐地
     - name: Get 23.m3u8
@@ -280,7 +280,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=I8ouYhIq6lU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Wjtlk_3AMBU)
         EOL
         # 27臺北-象山
     - name: Get 27.m3u8
@@ -1050,7 +1050,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=X2b72rK4YpY)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=29H5j3EsV3Q)
         EOL
         # 104花蓮-六十石山
     - name: Get 104.m3u8
