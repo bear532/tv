@@ -82,7 +82,7 @@
 
 42.桃園-拉拉山遊客中心,https://raw.githubusercontent.com/bear532/tv/main/42.m3u8
 
-43.桃園-拉拉山遊客中心,https://raw.githubusercontent.com/bear532/tv/main/43.m3u8
+43.桃園-上巴陵即時影像,https://raw.githubusercontent.com/bear532/tv/main/43.m3u8
 
 44.桃園-角板山梅園,https://raw.githubusercontent.com/bear532/tv/main/44.m3u8
 
