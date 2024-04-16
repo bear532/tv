@@ -440,9 +440,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Qsio6jOZ2Y4I)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=YkIUZjVlhv4)
         EOL
-        # 43桃園-拉拉山遊客中心
+        # 43桃園-上巴陵即時影像
     - name: Get 43.m3u8
       run: |
         touch ./43.m3u8
@@ -450,7 +450,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=YkIUZjVlhv4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=nV-DKquUjFs)
         EOL
         # 44桃園-角板山梅園
     - name: Get 44.m3u8
@@ -572,7 +572,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=9oYlphXeawM)
         EOL
-        # 56台中-南投梨山賓館XX
+        # 56台中-南投梨山賓館
     - name: Get 56.m3u8
       run: |
         touch ./56.m3u8
@@ -580,9 +580,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=ihqjLwYkyYE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Mbm4rQBIUmI)
         EOL
-       # 57台中-南投梨山攬勝樓XX
+       # 57台中-南投梨山攬勝樓
     - name: Get 57.m3u8
       run: |
         touch ./57.m3u8
@@ -590,7 +590,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=XWlIcYSFfVA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=mrDiNASMOJE)
         EOL
         # 58台中-高美濕地
     - name: Get 58.m3u8
