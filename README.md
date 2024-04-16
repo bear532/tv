@@ -102,11 +102,11 @@
 
 52.台中-武陵櫻花鉤吻鮭實境,https://raw.githubusercontent.com/bear532/tv/main/52.m3u8
 
-53.台中-大甲鎮南宮廟裡,https://raw.githubusercontent.com/bear532/tv/main/53.m3u8
+53.台中-台中-中社花園直播1910,https://raw.githubusercontent.com/bear532/tv/main/53.m3u8
 
 54.台中-雲品溫泉酒店,https://raw.githubusercontent.com/bear532/tv/main/54.m3u8
 
-55.台中-清水紫雲岩廟裡,https://raw.githubusercontent.com/bear532/tv/main/55.m3u8
+55.台中-中社花園直播191,https://raw.githubusercontent.com/bear532/tv/main/55.m3u8
 
 56.台中-梨山賓館,https://raw.githubusercontent.com/bear532/tv/main/56.m3u8
 
