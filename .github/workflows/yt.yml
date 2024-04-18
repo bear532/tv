@@ -1090,7 +1090,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=ww8s-erahaU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OQnwVN5lzsk)
         EOL
         # 108花蓮-大石鼻山
     - name: Get 108.m3u8
