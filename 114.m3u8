@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715019388/ei/HMo4ZtecG7GXkucP6auGmAo/ip/172.210.215.107/id/d-uG7fiabCE.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr6---sn-4o.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f1SYStWOoCn9jPaJXblceTKagD-7g6DOmTMgBtDSoBhwrKqS2CqFXXuD/vprv/1/playlist_type/DVR/mh/I_/mm/44/mn/sn-4o/ms/lva/mv/u/mvi/6/pl/16/dover/11/pacing/0/keepalive/yes/mt/1714997390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAPwkVI15dOIdpXBb8kQJOtjXOfbe6jNQt7ZhEUJWsSErAiEAmamy1s0GUxQv3YXOJYKqSVcjnC1kApB9_-DAX5CJYSw%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIhAKV8dY_gV65BFmeuHENU8Ry99N2LX4f2Hnbb21fjXfc9AiAxu7agMdKbhGl73E3nFqrVMg4hkt8yNz-39GEAGdnI_A%3D%3D/playlist/index.m3u8
 EOL  
 # 115馬祖-西莒青帆港
