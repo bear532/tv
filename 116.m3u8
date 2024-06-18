@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1718745047/ei/dqNxZorWO4KNkucPj6KrkAk/ip/20.109.39.21/id/fR3DGNGcLJk.1/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-mb.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f0ggCySFD8vnCvtRCfxI2Dtid-eRso141w5tWZcYQa77tFn3X8wWCwYV1og/vprv/1/playlist_type/DVR/mh/Uy/mm/44/mn/sn-mb/ms/lva/mv/u/mvi/5/pl/16/dover/11/pacing/0/keepalive/yes/mt/1718723188/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgQmbjErCQwVDiXBHcgN0Tlw7W07k7mgFeMsqW4fTfA-ACIQDoaDE7dgm7-TDeKsSgP9oIt8fzs-_W0-bfbcut6xpmqg%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHlkHjAwRQIgeCVRAT_b1bqOjTsaDZ8SQi5f5XSy76qOROsQztXtewsCIQDceqBh9COtBX0AJHmn7RhEyXgAdaGoAD5V57ie6-LW1A%3D%3D/playlist/index.m3u8
 EOL  
 # 117綠島-南寮漁港
