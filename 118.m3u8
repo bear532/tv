@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1737904308/ei/VPyVZ72KMJu3kucPnYjRiQM/ip/172.210.84.224/id/pLdBc8PvZko.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr1---sn-p5qs7nzr.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AY2Et-NJKLCJ-dwpTScsvGj1qXg9j0jnSKaPv-VkzKYyaLk5_GSO2vi9HQtQPkYpX_MGo7sO977Ubd4O/spc/9kzgDV_2yzioL-3edocrhmhLccdYZoN0KWftOnfLInINhx-IYTbLEGM0nnnv0FUjG9YnL3c/vprv/1/playlist_type/DVR/met/1737882709,/mh/O-/mm/44/mn/sn-p5qs7nzr/ms/lva/mv/u/mvi/1/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51326932,51353498,51355912,51371294/mt/1737881169/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJfQdSswRgIhALTZ_h7IHlOD4evSFzN0FGJZKtK20yMzWRSJN_bsHOmuAiEAzVXsF861DG0xLKLMFKexgUNQhTtNVf0xA3vUHfPpmGo%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/AGluJ3MwRQIgKpq5PlQV8dyiXbPxORgCeAnq7EZDpJUiv9Ug2Edl_E8CIQChc41FZiIT3dzVq8HaBNlNN3-VQYc5YlyaXf_osI-pLA%3D%3D/playlist/index.m3u8
 EOL  
 # 119綠島-柴口浮潛區
